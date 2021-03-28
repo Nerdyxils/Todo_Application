@@ -70,9 +70,11 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1 className="text-center mb-4">Todo List</h1>
-        <FormTodo addTodo={addTodo} />
-        <div>
+        <div className="todo__header">
+          <h1 className="text-center mb-4">Todo App</h1>
+          <FormTodo addTodo={addTodo} />
+        </div>
+        <div className="app_item">
           {todos.map((todo, index) => (
             <Card>
               <Card.Body>

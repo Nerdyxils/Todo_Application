@@ -1,6 +1,13 @@
 .app {
   padding: 30px;
-  background-color: floralwhite;
+  background-color: #5C5F30;
+  height: 100vh;
+}
+
+
+.todo__header {
+  padding: 30px;
+  background-color: #F0DAC0;
 }
 
 .todo {
@@ -8,6 +15,7 @@
   display: flex;
   font-size: 18px;
   justify-content: space-between;
+  
 }
 
 
